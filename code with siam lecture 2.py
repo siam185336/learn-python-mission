@@ -165,10 +165,10 @@ print(f"The remainder is: {a%b}")              # f-string ব্যবহার 
 # PROBLEM 3: Check the type of the variable assigned using input() funcition?
 #উওর:-
 name=input("Enter your name:")
-age=input ("Enter your age:")
-height=input("Enter your height:")
+age=int(input("Enter your age:"))
+height=float(input("Enter your height:"))
 is_student=True
-love=""
+love=None
 
 print(f"My name is {name} and I am {age} years old. I am a student. I am {height} feet tall. I don't have anyone to love.")                 # f-string ব্যবহার করে print করা হয়েছে।
 print(type(name),type(age),type(height),type(is_student),type(love))
